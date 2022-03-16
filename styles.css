@@ -23,7 +23,8 @@ body {
   /* or you can use a shorthand */
   /* transition: all 500ms ease-in;
   or you can write multiple properties in 1 line */
-  transition: 1s background-color ease-in, 500ms transform ease-out;
+  transition: 1s background-color ease-in, 500ms transform ease-out 2s;
+  /* the 4th item of 2s is a delay to start the transition */
   /* this enables to make it so you can have the 2 properties follow different timing and curves */
 }
 
